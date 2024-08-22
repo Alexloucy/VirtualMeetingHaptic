@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B2DA822C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 53B2DA812C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53B2DA872C7704FE00BC42F5 /* VirtualMeetingHapticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B2DA862C7704FE00BC42F5 /* VirtualMeetingHapticApp.swift */; };
+		53B2DA892C7704FE00BC42F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B2DA882C7704FE00BC42F5 /* ContentView.swift */; };
+		53B2DA8B2C7704FF00BC42F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B2DA8A2C7704FF00BC42F5 /* Assets.xcassets */; };
+		53B2DA8E2C7704FF00BC42F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B2DA8D2C7704FF00BC42F5 /* Preview Assets.xcassets */; };
+		53B2DA982C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B2DA972C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppTests.swift */; };
+		53B2DAA22C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B2DAA12C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITests.swift */; };
+		53B2DAA42C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B2DAA32C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53B2DA832C7704FE00BC42F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B2DA752C7704FE00BC42F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B2DA802C7704FE00BC42F5;
+			remoteInfo = "VirtualMeetingHaptic Watch App";
+		};
+		53B2DA942C7704FF00BC42F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B2DA752C7704FE00BC42F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B2DA802C7704FE00BC42F5;
+			remoteInfo = "VirtualMeetingHaptic Watch App";
+		};
+		53B2DA9E2C7704FF00BC42F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B2DA752C7704FE00BC42F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B2DA802C7704FE00BC42F5;
+			remoteInfo = "VirtualMeetingHaptic Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53B2DAAA2C7704FF00BC42F5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				53B2DA822C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53B2DA7B2C7704FE00BC42F5 /* VirtualMeetingHaptic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualMeetingHaptic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B2DA812C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VirtualMeetingHaptic Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B2DA862C7704FE00BC42F5 /* VirtualMeetingHapticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualMeetingHapticApp.swift; sourceTree = "<group>"; };
+		53B2DA882C7704FE00BC42F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53B2DA8A2C7704FF00BC42F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53B2DA8D2C7704FF00BC42F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53B2DA932C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VirtualMeetingHaptic Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B2DA972C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualMeetingHaptic_Watch_AppTests.swift; sourceTree = "<group>"; };
+		53B2DA9D2C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VirtualMeetingHaptic Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B2DAA12C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualMeetingHaptic_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		53B2DAA32C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualMeetingHaptic_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53B2DA7E2C7704FE00BC42F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B2DA902C7704FF00BC42F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B2DA9A2C7704FF00BC42F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53B2DA742C7704FE00BC42F5 = {
+			isa = PBXGroup;
+			children = (
+				53B2DA852C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App */,
+				53B2DA962C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppTests */,
+				53B2DAA02C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppUITests */,
+				53B2DA7C2C7704FE00BC42F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53B2DA7C2C7704FE00BC42F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B2DA7B2C7704FE00BC42F5 /* VirtualMeetingHaptic.app */,
+				53B2DA812C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App.app */,
+				53B2DA932C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppTests.xctest */,
+				53B2DA9D2C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B2DA852C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				53B2DA862C7704FE00BC42F5 /* VirtualMeetingHapticApp.swift */,
+				53B2DA882C7704FE00BC42F5 /* ContentView.swift */,
+				53B2DA8A2C7704FF00BC42F5 /* Assets.xcassets */,
+				53B2DA8C2C7704FF00BC42F5 /* Preview Content */,
+			);
+			path = "VirtualMeetingHaptic Watch App";
+			sourceTree = "<group>";
+		};
+		53B2DA8C2C7704FF00BC42F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53B2DA8D2C7704FF00BC42F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53B2DA962C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				53B2DA972C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppTests.swift */,
+			);
+			path = "VirtualMeetingHaptic Watch AppTests";
+			sourceTree = "<group>";
+		};
+		53B2DAA02C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53B2DAA12C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITests.swift */,
+				53B2DAA32C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "VirtualMeetingHaptic Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53B2DA7A2C7704FE00BC42F5 /* VirtualMeetingHaptic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B2DAAB2C7704FF00BC42F5 /* Build configuration list for PBXNativeTarget "VirtualMeetingHaptic" */;
+			buildPhases = (
+				53B2DA792C7704FE00BC42F5 /* Resources */,
+				53B2DAAA2C7704FF00BC42F5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B2DA842C7704FE00BC42F5 /* PBXTargetDependency */,
+			);
+			name = VirtualMeetingHaptic;
+			productName = VirtualMeetingHaptic;
+			productReference = 53B2DA7B2C7704FE00BC42F5 /* VirtualMeetingHaptic.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		53B2DA802C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B2DAA72C7704FF00BC42F5 /* Build configuration list for PBXNativeTarget "VirtualMeetingHaptic Watch App" */;
+			buildPhases = (
+				53B2DA7D2C7704FE00BC42F5 /* Sources */,
+				53B2DA7E2C7704FE00BC42F5 /* Frameworks */,
+				53B2DA7F2C7704FE00BC42F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VirtualMeetingHaptic Watch App";
+			productName = "VirtualMeetingHaptic Watch App";
+			productReference = 53B2DA812C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53B2DA922C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B2DAAE2C7704FF00BC42F5 /* Build configuration list for PBXNativeTarget "VirtualMeetingHaptic Watch AppTests" */;
+			buildPhases = (
+				53B2DA8F2C7704FF00BC42F5 /* Sources */,
+				53B2DA902C7704FF00BC42F5 /* Frameworks */,
+				53B2DA912C7704FF00BC42F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B2DA952C7704FF00BC42F5 /* PBXTargetDependency */,
+			);
+			name = "VirtualMeetingHaptic Watch AppTests";
+			productName = "VirtualMeetingHaptic Watch AppTests";
+			productReference = 53B2DA932C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53B2DA9C2C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B2DAB12C7704FF00BC42F5 /* Build configuration list for PBXNativeTarget "VirtualMeetingHaptic Watch AppUITests" */;
+			buildPhases = (
+				53B2DA992C7704FF00BC42F5 /* Sources */,
+				53B2DA9A2C7704FF00BC42F5 /* Frameworks */,
+				53B2DA9B2C7704FF00BC42F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B2DA9F2C7704FF00BC42F5 /* PBXTargetDependency */,
+			);
+			name = "VirtualMeetingHaptic Watch AppUITests";
+			productName = "VirtualMeetingHaptic Watch AppUITests";
+			productReference = 53B2DA9D2C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53B2DA752C7704FE00BC42F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					53B2DA7A2C7704FE00BC42F5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					53B2DA802C7704FE00BC42F5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					53B2DA922C7704FF00BC42F5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 53B2DA802C7704FE00BC42F5;
+					};
+					53B2DA9C2C7704FF00BC42F5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 53B2DA802C7704FE00BC42F5;
+					};
+				};
+			};
+			buildConfigurationList = 53B2DA782C7704FE00BC42F5 /* Build configuration list for PBXProject "VirtualMeetingHaptic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53B2DA742C7704FE00BC42F5;
+			productRefGroup = 53B2DA7C2C7704FE00BC42F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B2DA7A2C7704FE00BC42F5 /* VirtualMeetingHaptic */,
+				53B2DA802C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App */,
+				53B2DA922C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppTests */,
+				53B2DA9C2C7704FF00BC42F5 /* VirtualMeetingHaptic Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53B2DA792C7704FE00BC42F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B2DA7F2C7704FE00BC42F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B2DA8E2C7704FF00BC42F5 /* Preview Assets.xcassets in Resources */,
+				53B2DA8B2C7704FF00BC42F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B2DA912C7704FF00BC42F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B2DA9B2C7704FF00BC42F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53B2DA7D2C7704FE00BC42F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B2DA892C7704FE00BC42F5 /* ContentView.swift in Sources */,
+				53B2DA872C7704FE00BC42F5 /* VirtualMeetingHapticApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B2DA8F2C7704FF00BC42F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B2DA982C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B2DA992C7704FF00BC42F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B2DAA22C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITests.swift in Sources */,
+				53B2DAA42C7704FF00BC42F5 /* VirtualMeetingHaptic_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53B2DA842C7704FE00BC42F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B2DA802C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App */;
+			targetProxy = 53B2DA832C7704FE00BC42F5 /* PBXContainerItemProxy */;
+		};
+		53B2DA952C7704FF00BC42F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B2DA802C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App */;
+			targetProxy = 53B2DA942C7704FF00BC42F5 /* PBXContainerItemProxy */;
+		};
+		53B2DA9F2C7704FF00BC42F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B2DA802C7704FE00BC42F5 /* VirtualMeetingHaptic Watch App */;
+			targetProxy = 53B2DA9E2C7704FF00BC42F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53B2DAA52C7704FF00BC42F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53B2DAA62C7704FF00BC42F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		53B2DAA82C7704FF00BC42F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualMeetingHaptic Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YD63WD5KU9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualMeetingHaptic;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexLou.VirtualMeetingHaptic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		53B2DAA92C7704FF00BC42F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualMeetingHaptic Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YD63WD5KU9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualMeetingHaptic;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexLou.VirtualMeetingHaptic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		53B2DAAC2C7704FF00BC42F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD63WD5KU9;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualMeetingHaptic;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexLou.VirtualMeetingHaptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53B2DAAD2C7704FF00BC42F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD63WD5KU9;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualMeetingHaptic;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexLou.VirtualMeetingHaptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53B2DAAF2C7704FF00BC42F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD63WD5KU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexLou.VirtualMeetingHaptic-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualMeetingHaptic Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualMeetingHaptic Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		53B2DAB02C7704FF00BC42F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD63WD5KU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexLou.VirtualMeetingHaptic-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualMeetingHaptic Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualMeetingHaptic Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		53B2DAB22C7704FF00BC42F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD63WD5KU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexLou.VirtualMeetingHaptic-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "VirtualMeetingHaptic Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		53B2DAB32C7704FF00BC42F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD63WD5KU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexLou.VirtualMeetingHaptic-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "VirtualMeetingHaptic Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B2DA782C7704FE00BC42F5 /* Build configuration list for PBXProject "VirtualMeetingHaptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B2DAA52C7704FF00BC42F5 /* Debug */,
+				53B2DAA62C7704FF00BC42F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B2DAA72C7704FF00BC42F5 /* Build configuration list for PBXNativeTarget "VirtualMeetingHaptic Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B2DAA82C7704FF00BC42F5 /* Debug */,
+				53B2DAA92C7704FF00BC42F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B2DAAB2C7704FF00BC42F5 /* Build configuration list for PBXNativeTarget "VirtualMeetingHaptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B2DAAC2C7704FF00BC42F5 /* Debug */,
+				53B2DAAD2C7704FF00BC42F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B2DAAE2C7704FF00BC42F5 /* Build configuration list for PBXNativeTarget "VirtualMeetingHaptic Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B2DAAF2C7704FF00BC42F5 /* Debug */,
+				53B2DAB02C7704FF00BC42F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B2DAB12C7704FF00BC42F5 /* Build configuration list for PBXNativeTarget "VirtualMeetingHaptic Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B2DAB22C7704FF00BC42F5 /* Debug */,
+				53B2DAB32C7704FF00BC42F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53B2DA752C7704FE00BC42F5 /* Project object */;
+}
