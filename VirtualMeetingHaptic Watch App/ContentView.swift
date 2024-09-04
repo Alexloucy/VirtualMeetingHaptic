@@ -3,7 +3,7 @@ import WatchKit
 
 struct ContentView: View {
     @State private var isVibrating = false
-    @State private var heartRate: Int = 65
+    @State private var heartRate: Double = 65
     @State private var timer: Timer?
     enum HapticTypes: String, CaseIterable, Identifiable {
            case notification, success, failure, retry, start, stop, click, directionUp, directionDown
@@ -39,8 +39,9 @@ struct ContentView: View {
         VStack {
             Text("Heart Rate: \(heartRate) bpm")
                 .font(.system(.headline, design: .rounded))
-            
            
+            Slider(value: $heartRate, in: 50...120, step: 1).frame(height: 40)
+            
             Picker("Haptic Type", selection: $selectedHaptic) {
                     ForEach(HapticTypes.allCases) { hapticType in
                         Text(hapticType.rawValue.capitalized)
@@ -62,18 +63,6 @@ struct ContentView: View {
                     .foregroundColor(isVibrating ? .red : .green)
             }
             .buttonStyle(PlainButtonStyle())
-        }
-        .focusable()
-        .digitalCrownRotation(
-            detent: $heartRate,
-            from: 50,
-            through: 120,
-            by: 1
-        ) { _ in
-            if isVibrating {
-                stopVibration()
-                startVibration()
-            }
         }
     }
     
